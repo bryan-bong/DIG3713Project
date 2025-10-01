@@ -1,0 +1,65 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 3
+  tags:
+  - Enemy
+  - Death
+  - Health
+  - PlayerAttack
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - Player
+  - Water
+  - UI
+  - 
+  - 
+  - 
+  - 
+  - Ground
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Tileset
+    uniqueID: 1267959337
+    locked: 0
+  - name: TileDecoration
+    uniqueID: 379188159
+    locked: 0
+  - name: Behind Player
+    uniqueID: 631206243
+    locked: 0
+  - name: Player
+    uniqueID: 2479277581
+    locked: 0
+  - name: Wall
+    uniqueID: 3987033037
+    locked: 0
+  m_RenderingLayers:
+  - Default
+  - Test
