@@ -1,4 +1,5 @@
 using DigitalWorlds.StarterPackage2D;
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class CoinPickup : MonoBehaviour
@@ -11,6 +12,12 @@ public class CoinPickup : MonoBehaviour
         {
             debt.AdjustScore(10);
             Destroy(gameObject);
+        }
+
+        // Ease of quitting the game
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            Application.Quit();
         }
     }
 }
