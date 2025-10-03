@@ -15,4 +15,12 @@ public class FenceBehavior : MonoBehaviour
             levelEnd.SetActive(true);
         }
     }
+    public void Update()
+    {
+        // Ease of quitting the game
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            Application.Quit();
+        }
+    }
 }
