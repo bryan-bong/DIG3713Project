@@ -1,19 +1,10 @@
 fileFormatVersion: 2
-guid: e6beb6177e2a8e24dbe14f77d0b2ac07
+guid: 86613871b972b454d8f305b41436533e
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 6469856413459193967
-    second: Idle Spritesheet2_0
-  - first:
-      213: -1933684800645522960
-    second: Idle Spritesheet2_1
-  - first:
-      213: 8622704055108523396
-    second: Idle Spritesheet2_2
-  - first:
-      213: 159838724558322542
-    second: Idle Spritesheet2_3
+      213: -7283605093292358059
+    second: rock_1_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -46,7 +37,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 0
+    filterMode: 1
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -60,7 +51,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 25
+  spritePixelsToUnits: 100
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -84,7 +75,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 0
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -135,13 +126,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Idle Spritesheet2_0
+      name: rock_1_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 32
-        height: 32
+        width: 20
+        height: 11
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -150,74 +141,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: f60a408112c89c950800000000000000
-      internalID: 6469856413459193967
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Idle Spritesheet2_1
-      rect:
-        serializedVersion: 2
-        x: 31
-        y: 0
-        width: 33
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 0f993fd3beb2a25e0800000000000000
-      internalID: -1933684800645522960
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Idle Spritesheet2_2
-      rect:
-        serializedVersion: 2
-        x: 65
-        y: 0
-        width: 31
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 485501037aff9a770800000000000000
-      internalID: 8622704055108523396
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Idle Spritesheet2_3
-      rect:
-        serializedVersion: 2
-        x: 96
-        y: 0
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: e6b76ae197cd73200800000000000000
-      internalID: 159838724558322542
+      spriteID: 556451202cf6bea90800000000000000
+      internalID: -7283605093292358059
       vertices: []
       indices: 
       edges: []
@@ -236,10 +161,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Idle Spritesheet2_0: 6469856413459193967
-      Idle Spritesheet2_1: -1933684800645522960
-      Idle Spritesheet2_2: 8622704055108523396
-      Idle Spritesheet2_3: 159838724558322542
+      rock_1_0: -7283605093292358059
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
