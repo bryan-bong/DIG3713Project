@@ -4,15 +4,28 @@ using UnityEngine;
 public class FenceBehavior : MonoBehaviour 
 {
     private Score debt;
-    public GameObject levelEnd;
+    public int max_score;
+    public GameObject levelEndText;
+    public GameObject endDoor;
+    public GameObject endTeleport;
+    public AudioClip doorSound;
+    public AudioSource audioSource;
+    private bool levelFinished = false;
     private void OnCollisionEnter2D(Collision2D collision)
     {
         debt = GameObject.Find("Debt").GetComponent<Score>();
         int current_score = debt.GetScore();
-        int max_score = 100;
-        if (collision.gameObject.tag == "Player" && current_score == max_score)
+        
+        if (collision.gameObject.tag == "Player" && current_score == max_score && levelFinished == false)
         {
-            levelEnd.SetActive(true);
+            // Tutorial Text
+            levelEndText.SetActive(true);
+
+            // Opens the exit door and activates teleporter
+            audioSource.PlayOneShot(doorSound);
+            endDoor.SetActive(false);
+            endTeleport.SetActive(true);
+            levelFinished = true;
         }
     }
     public void Update()

@@ -9,6 +9,11 @@ TagManager:
   - Health
   - PlayerAttack
   - Key
+  - Collectible
+  - CellDoor
+  - Door
+  - Item
+  - Teleporter
   layers:
   - Default
   - TransparentFX
@@ -63,6 +68,9 @@ TagManager:
     locked: 0
   - name: Wall
     uniqueID: 3987033037
+    locked: 0
+  - name: Particle Effects
+    uniqueID: 1935281893
     locked: 0
   m_RenderingLayers:
   - Default

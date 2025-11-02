@@ -5,6 +5,7 @@ using UnityEngine;
 public class CoinPickup : MonoBehaviour
 {
     private Score debt;
+
     private void OnCollisionEnter2D(Collision2D collision)
     {
         debt = GameObject.Find("Debt").GetComponent<Score>();
