@@ -41,11 +41,6 @@ public class SoundEffects : MonoBehaviour
         {
             CellDoorOpenSound();
         }
-
-        if (collision.gameObject.tag == "Teleporter")
-        {
-            Teleporter();
-        }
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
@@ -58,6 +53,11 @@ public class SoundEffects : MonoBehaviour
         if (collision.gameObject.tag == "Enemy")
         {
             Detected();
+        }
+
+        if (collision.gameObject.tag == "Teleporter")
+        {
+            Teleporter();
         }
     }
 }
